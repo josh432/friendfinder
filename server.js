@@ -8,15 +8,12 @@ var PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(bodyParser.text());
+// app.use(bodyParser.text());
 
-app.use(express.static('public'));
-//require(path.join(__dirname, './app/routing/apiRoutes'))(app);
-require(path.join(__dirname, './app/routing/htmlRoutes'))(app);
+app.use(express.static('app/public'));
 
-//app.get("/survey", function(req, res) {
-// res.sendFile(path.join(__dirname, "survey.html"));
-//});
+//require('./app/routing/apiRoutes')(app);
+require('./app/routing/htmlRoutes')(app);
 
 app.listen(PORT, function() {
   console.log('Friend Finder app is listening on PORT: ' + PORT);
