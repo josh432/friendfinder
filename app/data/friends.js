@@ -2,15 +2,16 @@
 var friendsArray = [
 	{
 		name: 'Big Bird',
-		photo: 'http://i.telegraph.co.uk/multimedia/archive/02869/big_bird1_2869483b.jpg'
+		photo: 'http://i.telegraph.co.uk/multimedia/archive/02869/big_bird1_2869483b.jpg',
+		scores: [
 			'1',
-			'5',
-			'5',
-			'1',
-			'5',
+			'4',
 			'5',
 			'1',
+			'3',
+			'5',
 			'1',
+			'4',
 			'1',
 			'5'
 		]
@@ -23,9 +24,9 @@ var friendsArray = [
 			'4',
 			'1',
 			'1',
+			'4',
 			'1',
-			'1',
-			'1',
+			'3',
 			'2',
 			'1',
 			'5'
@@ -38,7 +39,7 @@ var friendsArray = [
 			'4',
 			'3',
 			'5',
-			'1',
+			'5',
 			'1',
 			'5',
 			'5',
@@ -57,7 +58,7 @@ var friendsArray = [
 			'1',
 			'3',
 			'4',
-			'1',
+			'2',
 			'3',
 			'3',
 			'4'
@@ -70,11 +71,11 @@ var friendsArray = [
 			'1',
 			'1',
 			'5',
+			'1',
 			'5',
 			'5',
 			'5',
-			'5',
-			'5',
+			'1',
 			'5',
 			'1'
 		]
@@ -105,7 +106,7 @@ var friendsArray = [
 			'2',
 			'4',
 			'4',
-			'3',
+			'2',
 			'2',
 			'3',
 			'3'
@@ -140,7 +141,7 @@ var friendsArray = [
 			'5',
 			'5',
 			'5',
-			'5'
+			'1'
 		]
 	},
 	{

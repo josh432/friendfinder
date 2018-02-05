@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.text());
 
 app.use(express.static('public'));
-//require(path.join(__dirname, './app/routing/apiRoutes'))(app);
+require(path.join(__dirname, './app/routing/apiRoutes'))(app);
 require(path.join(__dirname, './app/routing/htmlRoutes'))(app);
 
 //app.get("/survey", function(req, res) {
